@@ -5,7 +5,12 @@ ShineShine: The Reddit Positivity Plugin
 
 Chrome extension that replaces negativity with positivity!
 
-[Direct download of crx file](https://github.com/jonathanbaugh/shineshine/blob/master/ShineShine.crx?raw=true)
+Installation
+------------------
+- [Direct download of crx file](https://github.com/jonathanbaugh/shineshine/blob/master/ShineShine.crx?raw=true)
+- Open [Chrome Extensions](chrome://extensions)
+- Drag the file in.
+- Checkout https://www.reddit.com for a more positive experience!
 
 Thanks!
 ------------------
