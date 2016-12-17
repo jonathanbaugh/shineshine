@@ -1,4 +1,4 @@
-cloud-to-butt
+ShineShine: The Reddit Positivity Plugin
 =============
 
 ![](logo.png)
