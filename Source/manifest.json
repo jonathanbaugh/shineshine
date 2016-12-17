@@ -1,12 +1,17 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "ShineShine: The Reddit Positivity Plugin",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Replaces the negativity with positivity.",
 	"content_scripts": 
 	[
 		{
-			"matches": ["*://*/*"],
+			"matches": [
+				"http://reddit.com/*",
+				"https://reddit.com/*",
+				"http://*.reddit.com/*",
+				"https://*.reddit.com/*"
+			],
 			"js": ["content_script.js"],
 			"run_at": "document_end"
 		}
