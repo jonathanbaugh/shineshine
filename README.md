@@ -10,4 +10,4 @@ Chrome extension that replaces negativity with positivity!
 Thanks!
 ------------------
 
-Thank you Kaci Hampton for creating the shiny new logo!
+Thank you [Kaci Hampton](https://www.instagram.com/inmyviewfinder/) for creating the shiny new logo!
