@@ -1,7 +1,6 @@
 var replacement_classes = [
 	// From, To
 	{ base: /shit/gi, replacements: [
-		{from: /\bshit\b/gi, to: "shine"},
 		{from: /\bshitpost\b/gi, to: "shinepost"},
 		{from: /\bshitposts\b/gi, to: "shineposts"},
 		{from: /\bshitposting\b/gi, to: "shineposting"},
@@ -9,21 +8,27 @@ var replacement_classes = [
 		{from: /\bshitshitpost/gi, to: "reallyshinypost"},
 		{from: /\bshitshitshitpost/gi, to: "reallyquiteshinypost"},
 		{from: /\bshitty/gi, to: "shiny"},
-		{from: /\bas shit\b/gi, to: "as shiny"},
+		{from: /\bas shit/gi, to: "as shiny"},
 		{from: /\b(bull|bat|horse)\s?shit\b/gi, to: "sparkly $1"},
-		{from: /\bknow shit\b/gi, to: "know much"}
+		{from: /\bknow shit\b/gi, to: "know much"},
+		{from: /\bshit/gi, to: "shine"}
 	]},
 	{ base: /fuck/gi, replacements: [
 		{from: /\bI fucked up\b/gi, to: "I Learned From My Mistakes"},
 		{from: /\bfuck(-| )*up\b/gi, to: "lesson"},
-		{from: /\bfuck(in|ing|ed|er)?\b/gi, to: "duck$1"}
+		{from: /\bfuck(in|ing|ed|er)?/gi, to: "duck$1"}
+	]},
+	{ base: /bitch/gi, replacements: [
+		{from: /\b(that|this|a) bitch/gi, to: "$1 lover"},
+		{from: /\b(these|those|them)?(\s)?bitches/gi, to: "$1$2lovers"},
+		{from: /\bbitch/gi, to: "love"}
 	]},
 	{ base: /./i, replacements: [
-		{from: /\bass(\s?hole)?\b/gi, to: "sparkle star"},
-		{from: /\b(cock|dick)\b/gi, to: "wand"},
-		{from: /\bdickhead\b/gi, to: "wizard"},
-		{from: /\b(cunt|pussy|snatch|twat|slit)\b/gi, to: "kitty"},
-		{from: /\b(cunts|pussies|snatches|twats|slits)\b/gi, to: "kitties"},
+		{from: /\bass(\s?hole)?/gi, to: "sparkle star"},
+		{from: /\bdickhead(s)?/gi, to: "wizard$1"},
+		{from: /\b(cock|dick)/gi, to: "wand"},
+		{from: /\b(cunts|pussies|twats)/gi, to: "kitties"},
+		{from: /\b(cunt|pussy|twat)/gi, to: "kitty"},
 		{from: /\btifu\b/gi, to: "TILFMM"},
 		{from: /\bv(s)?(\.)?\b/gi, to: "plays with"},
 		{from: /\bhell\b/gi, to: "hug"}
