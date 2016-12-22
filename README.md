@@ -16,3 +16,7 @@ Thanks!
 ------------------
 
 Thank you [Kaci Hampton](https://www.instagram.com/inmyviewfinder/) for creating the shiny new logo!
+
+Become a Patron
+------------------
+Like what I'm doing and want to see more of it? [Become a Patron](https://www.patreon.com/jonathanbaugh)
