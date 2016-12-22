@@ -16,12 +16,17 @@ var replacement_classes = [
 	{ base: /fuck/gi, replacements: [
 		{from: /\bI fucked up\b/gi, to: "I Learned From My Mistakes"},
 		{from: /\bfuck(-| )*up\b/gi, to: "lesson"},
-		{from: /\bfuck(ing|ed|er)?\b/gi, to: "duck$1"}
+		{from: /\bfuck(in|ing|ed|er)?\b/gi, to: "duck$1"}
 	]},
 	{ base: /./i, replacements: [
+		{from: /\bass(\s?hole)?\b/gi, to: "sparkle star"},
+		{from: /\b(cock|dick)\b/gi, to: "wand"},
+		{from: /\bdickhead\b/gi, to: "wizard"},
+		{from: /\b(cunt|pussy|snatch|twat|slit)\b/gi, to: "kitty"},
+		{from: /\b(cunts|pussies|snatches|twats|slits)\b/gi, to: "kitties"},
 		{from: /\btifu\b/gi, to: "TILFMM"},
-		{from: /\bvs(\.)?\b/gi, to: "plays with"},
-		{from: /\bhell\b/gi, to: "hug"},
+		{from: /\bv(s)?(\.)?\b/gi, to: "plays with"},
+		{from: /\bhell\b/gi, to: "hug"}
 	]}
 ];
 
