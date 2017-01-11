@@ -24,7 +24,7 @@ var replacement_classes = [
 		{from: /\bbitch/gi, to: "love"}
 	]},
 	{ base: /./i, replacements: [
-		{from: /\bass(\s?hole)?/gi, to: "sparkle star"},
+		{from: /\ban ass(\s?hole)\b/gi, to: "a sparkle star"},
 		{from: /\bdickhead(s)?/gi, to: "wizard$1"},
 		{from: /\b(cock|dick)/gi, to: "wand"},
 		{from: /\b(cunts|pussies|twats)/gi, to: "kitties"},
